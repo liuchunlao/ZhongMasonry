@@ -7,6 +7,7 @@
 //
 
 #import "ZJSViewController.h"
+#import <ZhongMasonry/Masonry.h>
 
 @interface ZJSViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"hello Pods");
 }
 
 - (void)didReceiveMemoryWarning
